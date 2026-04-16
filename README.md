@@ -8,7 +8,7 @@
 
 ## About
 
-AI/ML Engineer with 5 years of experience building and deploying production ML systems across NLP, predictive modeling, big data and MLOps. This portfolio contains end-to-end projects that mirror real enterprise work — from raw data ingestion through model training, deployment and monitoring.
+AI/ML Engineer with 5 years of experience building and deploying production ML systems across NLP, predictive modeling, big data and MLOps. This portfolio contains end-to-end projects that mirror real enterprise work from raw data ingestion through model training, deployment and monitoring.
 
 ---
 
