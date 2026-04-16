@@ -1,0 +1,18 @@
+{
+  "run_id": "b4a413f5",
+  "run_name": "GradientBoosting",
+  "experiment": "churn_prediction_mlops",
+  "start_time": "2026-04-16T21:06:16.884693",
+  "status": "FINISHED",
+  "params": {
+    "model": "GradientBoosting",
+    "data_version": "v1.2"
+  },
+  "metrics": {
+    "auc_roc": 0.747624,
+    "f1_weighted": 0.780746,
+    "accuracy": 0.81875
+  },
+  "artifacts": [],
+  "end_time": "2026-04-16T21:06:20.623472"
+}

@@ -1,0 +1,17 @@
+{
+  "models": [
+    {
+      "model_name": "LogisticRegression",
+      "version": 1,
+      "run_id": "241e4f21",
+      "stage": "Production",
+      "metrics": {
+        "auc_roc": 0.7765676123885078,
+        "f1_weighted": 0.7610520628878448,
+        "accuracy": 0.8325
+      },
+      "registered_at": "2026-04-16T21:06:22.209637",
+      "promoted_at": "2026-04-16T21:06:22.211142"
+    }
+  ]
+}
