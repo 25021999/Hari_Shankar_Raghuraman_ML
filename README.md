@@ -1,56 +1,65 @@
 # Hari Shankar Raghuraman — AI/ML Portfolio
 
-**AI/ML Engineer  |  NLP  |  MLOps  |  LLM Applications**
+**AI/ML Engineer  |  NLP  |  MLOps  |  Machine Learning at Scale**
 
-📧 harishankar1729@gmail.com  |  📍 Denton, TX, USA  |  💼 linkedin.com/in/harishankarraghuram
+📧 harishankar1729@gmail.com  |  📍 Denton, TX, USA  |  💼 [LinkedIn](https://www.linkedin.com/in/harishankarraghuram)
 
 ---
 
 ## About
 
-5 years of experience building and shipping production-grade ML systems across NLP, predictive modeling, real-time inference, and LLM-powered applications. This portfolio showcases end-to-end projects covering the full ML lifecycle — from data engineering and model development to deployment and monitoring.
+AI/ML Engineer with 5 years of experience building and deploying production ML systems across NLP, predictive modeling, big data and MLOps. This portfolio contains end-to-end projects that mirror real enterprise work — from raw data ingestion through model training, deployment and monitoring.
 
 ---
 
 ## Projects
 
-### 1. Enterprise RAG Assistant
-> LangChain · FAISS · GPT-4 · FastAPI · AWS Lambda
+### 1. Customer Churn Prediction System
+> Python · PySpark · XGBoost · Scikit-learn · MLflow · FastAPI · AWS SageMaker · Docker
 
-Retrieval-Augmented Generation pipeline for intelligent Q&A over 10,000+ enterprise documents. Hybrid dense + sparse retrieval with cross-encoder re-ranking. **87% answer accuracy vs. 54% keyword search baseline.**
+End-to-end churn prediction pipeline processing large-scale customer behavioral data. Replaces a rule-based system with a data-driven XGBoost classifier deployed as a real-time API on AWS SageMaker.
 
-[View Project →](./rag-assistant)
+**AUC-ROC of 0.91. False positive rate reduced from 39% to 16%.**
 
----
-
-### 2. LLM Fine-tuning Pipeline
-> PyTorch · HuggingFace PEFT · LoRA · Llama-2 · AWS SageMaker
-
-End-to-end pipeline for fine-tuning Llama-2-7B on domain-specific data using LoRA. **91% intent classification accuracy — outperforms zero-shot GPT-4 by 8% at 10x lower cost.**
-
-[View Project →](./llm-finetuning-pipeline)
+[View Project →](./customer-churn-prediction)
 
 ---
 
-### 3. Real-Time ML Feature Store
-> Apache Kafka · Redis · PySpark · MLflow · AWS S3
+### 2. NLP Sentiment Analysis and Text Classification Pipeline
+> Python · PyTorch · HuggingFace Transformers · BERT · NLTK · Scikit-learn · FastAPI · Docker
 
-Low-latency feature store serving 50+ ML features in under 10ms. Eliminates training-serving skew and **reduces feature computation duplication by 60%** across production models.
+Production NLP pipeline for sentiment analysis and multi-class text classification across 12 business categories. Uses fine-tuned BERT for deep learning and NLTK for preprocessing.
 
-[View Project →](./realtime-feature-store)
+**93% sentiment accuracy and 89% classification F1 with fine-tuned BERT.**
+
+[View Project →](./nlp-sentiment-classification)
+
+---
+
+### 3. End-to-End MLOps Pipeline
+> MLflow · Apache Airflow · dbt · Docker · Kubernetes · AWS EKS · FastAPI · GitHub Actions
+
+A complete MLOps framework automating the full ML lifecycle from data ingestion through deployment and monitoring. Includes CI/CD, drift detection, model registry and Kubernetes auto-scaling.
+
+**Deployment time reduced from 3 to 5 days down to under 2 hours.**
+
+[View Project →](./mlops-pipeline)
 
 ---
 
 ## Core Skills
 
 ```
-Languages       Python · SQL · Scala
-ML & DL         Scikit-learn · XGBoost · PyTorch · TensorFlow · HuggingFace
-LLM & NLP       LangChain · RAG · FAISS · GPT-4 · Llama-2 · BERT · LoRA · PEFT
-MLOps           MLflow · Docker · Kubernetes · CI/CD · SageMaker Pipelines
-Data & Cloud    PySpark · Kafka · Airflow · dbt · AWS · Snowflake · Redshift
+Languages       Python · SQL · Scala · Java
+ML Frameworks   Scikit-learn · XGBoost · LightGBM · TensorFlow · PyTorch
+NLP             HuggingFace Transformers · BERT · NLTK · Text Classification · Sentiment Analysis
+MLOps           MLflow · Docker · Kubernetes · CI/CD · Airflow · dbt · Model Monitoring
+Big Data        Apache Spark · PySpark · Kafka · Hadoop
+Cloud           AWS (SageMaker · EC2 · S3 · Lambda · EKS) · Azure ML
+Data Warehouse  Snowflake · Amazon Redshift · Google BigQuery
+Visualization   Power BI · Tableau · Matplotlib · Seaborn
 ```
 
 ---
 
-*Open to senior AI/ML Engineer roles. Feel free to reach out!*
+*Open to Senior AI/ML Engineer roles. Feel free to reach out at harishankar1729@gmail.com*
